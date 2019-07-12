@@ -1,0 +1,124 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+ProcessException: ProcessException: Process "/Users/diaoqi/Desktop/project/flutter_taozugong_app/android/gradlew" exited abnormally:
+Unzipping /Users/diaoqi/.gradle/wrapper/dists/gradle-4.10.2-all/9fahxiiecdb76a5g3aw9oi8rv/gradle-4.10.2-all.zip to /Users/diaoqi/.gradle/wrapper/dists/gradle-4.10.2-all/9fahxiiecdb76a5g3aw9oi8rv
+
+Exception in thread "main" java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.gradle.wrapper.Install.unzip(Install.java:214)
+	at org.gradle.wrapper.Install.access$600(Install.java:27)
+	at org.gradle.wrapper.Install$1.call(Install.java:74)
+	at org.gradle.wrapper.Install$1.call(Install.java:48)
+	at org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:65)
+	at org.gradle.wrapper.Install.createDist(Install.java:48)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+  Command: /Users/diaoqi/Desktop/project/flutter_taozugong_app/android/gradlew -v
+
+```
+#0      runCheckedAsync (package:flutter_tools/src/base/process.dart:255:5)
+<asynchronous suspension>
+#1      _initializeGradle (package:flutter_tools/src/android/gradle.dart:225:9)
+<asynchronous suspension>
+#2      _ensureGradle (package:flutter_tools/src/android/gradle.dart:206:37)
+<asynchronous suspension>
+#3      _readGradleProject (package:flutter_tools/src/android/gradle.dart:134:31)
+<asynchronous suspension>
+#4      _gradleProject (package:flutter_tools/src/android/gradle.dart:111:34)
+<asynchronous suspension>
+#5      getGradleAppOut (package:flutter_tools/src/android/gradle.dart:105:29)
+<asynchronous suspension>
+#6      AndroidApk.fromAndroidProject (package:flutter_tools/src/application_package.dart:154:23)
+<asynchronous suspension>
+#7      ApplicationPackageFactory.getPackageForPlatform (package:flutter_tools/src/application_package.dart:46:32)
+<asynchronous suspension>
+#8      FlutterDevice.runHot (package:flutter_tools/src/resident_runner.dart:345:56)
+<asynchronous suspension>
+#9      HotRunner.run (package:flutter_tools/src/run_hot.dart:253:39)
+<asynchronous suspension>
+#10     RunCommand.runCommand (package:flutter_tools/src/commands/run.dart:428:37)
+<asynchronous suspension>
+#11     FlutterCommand.verifyThenRunCommand (package:flutter_tools/src/runner/flutter_command.dart:559:18)
+#12     _asyncThenWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:77:64)
+#13     _rootRunUnary (dart:async/zone.dart:1132:38)
+#14     _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#15     _FutureListener.handleValue (dart:async/future_impl.dart:126:18)
+#16     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:639:45)
+#17     Future._propagateToListeners (dart:async/future_impl.dart:668:32)
+#18     Future._complete (dart:async/future_impl.dart:473:7)
+#19     _SyncCompleter.complete (dart:async/future_impl.dart:51:12)
+#20     _AsyncAwaitCompleter.complete (dart:async-patch/async_patch.dart:28:18)
+#21     _completeOnAsyncReturn (dart:async-patch/async_patch.dart:294:13)
+#22     RunCommand.usageValues (package:flutter_tools/src/commands/run.dart)
+#23     _asyncThenWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:77:64)
+#24     _rootRunUnary (dart:async/zone.dart:1132:38)
+#25     _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#26     _FutureListener.handleValue (dart:async/future_impl.dart:126:18)
+#27     Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:639:45)
+#28     Future._propagateToListeners (dart:async/future_impl.dart:668:32)
+#29     Future._complete (dart:async/future_impl.dart:473:7)
+#30     _SyncCompleter.complete (dart:async/future_impl.dart:51:12)
+#31     _AsyncAwaitCompleter.complete.<anonymous closure> (dart:async-patch/async_patch.dart:33:20)
+#32     _rootRun (dart:async/zone.dart:1124:13)
+#33     _CustomZone.run (dart:async/zone.dart:1021:19)
+#34     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:947:23)
+#35     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#36     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#37     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:115:13)
+#38     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:172:5)
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, v1.5.4-hotfix.2, on Mac OS X 10.13.6 17G65, locale zh-Hans-CN)
+    [32m•[39m Flutter version 1.5.4-hotfix.2 at /Users/diaoqi/Desktop/tools/flutter
+    [32m•[39m Framework revision 7a4c33425d (2 months ago), 2019-04-29 11:05:24 -0700
+    [32m•[39m Engine revision 52c7a1e849
+    [32m•[39m Dart version 2.3.0 (build 2.3.0-dev.0.5 a1668566e5)
+
+[32m[✓][39m Android toolchain - develop for Android devices (Android SDK version 29.0.0)
+    [32m•[39m Android SDK at /Users/diaoqi/Library/Android/sdk
+    [32m•[39m Android NDK location not configured (optional; useful for native profiling support)
+    [32m•[39m Platform android-29, build-tools 29.0.0
+    [32m•[39m ANDROID_HOME = /Users/diaoqi/Library/Android/sdk
+    [32m•[39m Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    [32m•[39m Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b01)
+    [32m•[39m All Android licenses accepted.
+
+[32m[✓][39m iOS toolchain - develop for iOS devices (Xcode 10.0)
+    [32m•[39m Xcode at /Applications/Xcode.app/Contents/Developer
+    [32m•[39m Xcode 10.0, Build version 10A255
+    [32m•[39m ios-deploy 1.9.4
+    [32m•[39m CocoaPods version 1.7.4
+
+[32m[✓][39m Android Studio (version 3.4)
+    [32m•[39m Android Studio at /Applications/Android Studio.app/Contents
+    [32m•[39m Flutter plugin version 37.0.1
+    [32m•[39m Dart plugin version 183.6270
+    [32m•[39m Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b01)
+
+[32m[✓][39m VS Code (version 1.36.1)
+    [32m•[39m VS Code at /Applications/Visual Studio Code.app/Contents
+    [32m•[39m Flutter extension version 3.2.0
+
+[32m[✓][39m Proxy Configuration
+    [32m•[39m HTTP_PROXY is set
+    [32m•[39m NO_PROXY is localhost,127.0.0.1,localaddress,.localdomain.com
+    [32m•[39m NO_PROXY contains 127.0.0.1
+    [32m•[39m NO_PROXY contains localhost
+
+[32m[✓][39m Connected device (1 available)
+    [32m•[39m Android SDK built for x86 • emulator-5554 • android-x86 • Android 9 (API 28) (emulator)
+
+[32m•[39m No issues found!
+```

@@ -1,0 +1,4 @@
+#Wed Jul 10 18:05:23 CST 2019
+base.0=/Users/diaoqi/Desktop/project/flutter_taozugong_app/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

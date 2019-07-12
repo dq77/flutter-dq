@@ -1,0 +1,65 @@
+PODS:
+  - city_pickers (0.0.1):
+    - Flutter
+  - flustars (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - image_picker (0.0.1):
+    - Flutter
+  - OpenAliPaySDK (15.6.4)
+  - shared_preferences (0.0.1):
+    - Flutter
+  - tobias (0.0.1):
+    - Flutter
+    - OpenAliPaySDK (~> 15.6.4)
+  - url_launcher (0.0.1):
+    - Flutter
+  - webview_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - city_pickers (from `.symlinks/plugins/city_pickers/ios`)
+  - flustars (from `.symlinks/plugins/flustars/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - tobias (from `.symlinks/plugins/tobias/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - OpenAliPaySDK
+
+EXTERNAL SOURCES:
+  city_pickers:
+    :path: ".symlinks/plugins/city_pickers/ios"
+  flustars:
+    :path: ".symlinks/plugins/flustars/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  tobias:
+    :path: ".symlinks/plugins/tobias/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
+
+SPEC CHECKSUMS:
+  city_pickers: b0370f4c35c201723b5b7fcce10ec29b59d5bc35
+  flustars: 68f8784f3841ce82350ef82598e3b5bc29c36532
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  image_picker: a211f28b95a560433c00f5cd3773f4710a20404d
+  OpenAliPaySDK: 6b4421139f6e8c6d7b6203c9857e34bf4b2b71ff
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
+  tobias: ee7b1eb8c2e40241062061e9a742ab549231450c
+  url_launcher: 0067ddb8f10d36786672aa0722a21717dba3a298
+  webview_flutter: 1aa7604e6cdb451a9b7ed2c37d5454c0b440246b
+
+PODFILE CHECKSUM: dbd9a782c24a0b1159694a83b618309af7b3235f
+
+COCOAPODS: 1.6.1

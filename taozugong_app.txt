@@ -1,0 +1,217 @@
+问题记录
+
+
+1. 当登录渠道不是APP的时候，输入错误密码返回登录成功
+2. 密码明文登录没有加密
+3. 获取用户信息接口异常
+
+
+
+
+
+Flutter Json 解析
+https://juejin.im/post/5c98a5ed51882520f2089450
+
+https://juejin.im/post/5b4e04bbe51d45198c018e6e
+
+JSON to Dart
+https://javiercbk.github.io/json_to_dart/.
+
+
+二进制文件放在tools 文件夹下面
+
+chmod u+x Formatter_mac && ./Formatter_mac
+
+
+
+吸顶效果
+https://www.jianshu.com/p/b5292ef7c38c
+
+https://www.jianshu.com/p/d96508c9d174
+
+
+
+shape: BeveledRectangleBorder(
+  side: BorderSide(
+  style: BorderStyle.solid, width: 1.0, color: Colors.grey)
+),
+
+
+
+
+已选择的数据结构
+{
+  "alipayCode": null,
+  "businessType": 0,
+  "cnt": 1,
+  "img": "https://tzg-test-img.oss-cn-hangzhou.aliyuncs.com/goods-picture/2019-04-11/20190411120530671114066.png",
+  "name": "11111",
+  "payTypeList": [],
+  "selectedPayTypeObj": {
+    "name": "一次性支付",
+    "value": "1"
+  },
+  "selectedSpecs": [
+    {
+      "id": 100001,
+      "name": "内存",
+      "sort": 0,
+      "status": 10,
+      "value": {
+        "id": 83,
+        "name": "256G",
+        "picture": null,
+        "sort": 0,
+        "specificationKeyId": 100001,
+        "status": 10
+      }
+    },
+    {
+      "id": 100008,
+      "name": "尺码",
+      "sort": 0,
+      "status": 10,
+      "value": {
+        "id": 60,
+        "name": "XL",
+        "picture": null,
+        "sort": 0,
+        "specificationKeyId": 100008,
+        "status": 10
+      }
+    }
+  ],
+  "selectedStageObj": {
+    "depositPrice": 1000,
+    "detail": "100001:256G,100008:XL",
+    "id": 183,
+    "no": "313688614955384832",
+    "officialPrice": 1000,
+    "picture": "",
+    "salePrice": 0,
+    "skuStageVOList": [
+      {
+        "isStage": 0,
+        "onePayPrice": 70000,
+        "renewalOnePrice": 7,
+        "renewalStagePrice": 1,
+        "stageNumber": 7,
+        "stagePrice": 10000,
+        "unit": "DAY"
+      },
+      {
+        "isStage": 0,
+        "onePayPrice": 0.3,
+        "renewalOnePrice": 60,
+        "renewalStagePrice": 4,
+        "stageNumber": 15,
+        "stagePrice": 0.02,
+        "unit": "DAY"
+      },
+      {
+        "isStage": 0,
+        "onePayPrice": 1935,
+        "renewalOnePrice": 90,
+        "renewalStagePrice": 2,
+        "stageNumber": 45,
+        "stagePrice": 43,
+        "unit": "DAY"
+      },
+      {
+        "isStage": 10,
+        "onePayPrice": 390,
+        "renewalOnePrice": 27,
+        "renewalStagePrice": 9,
+        "stageNumber": 3,
+        "stagePrice": 130,
+        "unit": "MONTH"
+      },
+      {
+        "isStage": 10,
+        "onePayPrice": 72,
+        "renewalOnePrice": 576,
+        "renewalStagePrice": 96,
+        "stageNumber": 6,
+        "stagePrice": 12,
+        "unit": "MONTH"
+      },
+      {
+        "isStage": 10,
+        "onePayPrice": 99,
+        "renewalOnePrice": 792,
+        "renewalStagePrice": 88,
+        "stageNumber": 9,
+        "stagePrice": 11,
+        "unit": "MONTH"
+      },
+      {
+        "isStage": 10,
+        "onePayPrice": 1200,
+        "renewalOnePrice": 960,
+        "renewalStagePrice": 80,
+        "stageNumber": 12,
+        "stagePrice": 100,
+        "unit": "MONTH"
+      }
+    ],
+    "stageValue": {
+      "isStage": 10,
+      "onePayPrice": 1200,
+      "renewalOnePrice": 960,
+      "renewalStagePrice": 80,
+      "stageNumber": 12,
+      "stagePrice": 100,
+      "unit": "MONTH"
+    }
+  },
+  "skuDetailObj": {
+    "detail": "100001:256G,100008:XL",
+    "noidDetail": "\"256G\",\"XL\""
+  }
+}
+
+
+"selectedSpecs": [
+    {
+      "specificationKeyVO":{
+        "id": 100001,
+        "name": "内存",
+        "sort": 0,
+        "status": 10,
+      },
+      "specValue": {
+        "id": 83,
+        "name": "256G",
+        "picture": "",
+        "sort": 0,
+        "specificationKeyId": 100001,
+        "status": 10
+      }
+    },
+    {
+      "specificationKeyVO":{
+        "id": 100008,
+        "name": "尺码",
+        "sort": 0,
+        "status": 10,
+      },
+      "specValue": {
+        "id": 60,
+        "name": "XL",
+        "picture": "",
+        "sort": 0,
+        "specificationKeyId": 100008,
+        "status": 10
+      }
+    }
+  ]
+
+
+
+  解决安卓下打包安卓X的问题
+
+  https://flutter.dev/docs/development/tools/android-studio#android-ide
+
+  https://developer.android.com/jetpack/androidx/migrate#migrate
+  
+  https://flutter.dev/docs/development/packages-and-plugins/androidx-compatibility
