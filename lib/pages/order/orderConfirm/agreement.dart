@@ -55,7 +55,7 @@ class AgreementState extends State<AgreementPage> {
           ),
           new Container(
             child: new Text(
-              '《淘租公用户协议》',
+              '《小公公用户协议》',
               style: TextStyle(
                   fontSize: GlobalFont.fontSize12,
                   color: GlobalColor.baseColor),
