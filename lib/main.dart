@@ -40,14 +40,14 @@ class MyApp extends StatelessWidget {
 
     return OKToast(
         child: new MaterialApp(
-      title: '淘租公-租出新生活',
+      title: 'xiaosi',
       debugShowCheckedModeBanner: false,
       onGenerateRoute: Application.router.generator,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: IndexPage(title: '淘租公'),
+      home: IndexPage(title: 'xiaosi'),
     ));
   }
 }
