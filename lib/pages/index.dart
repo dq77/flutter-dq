@@ -46,7 +46,7 @@ class _IndexPageState extends State<IndexPage> {
             //     },
             //   );
             // }),
-            title: Text(widget.title ?? '淘租公'),
+            title: Text(widget.title ?? '小公公'),
             centerTitle: true,
             actions: <Widget>[
               Center(
