@@ -117,7 +117,7 @@ class _RegisterState extends State<Register> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Text(
-              "开启你的淘租公账号",
+              "开启你的小公公账号",
               style: TextStyles.textBoldDark26,
             ),
             Gaps.vGap16,
