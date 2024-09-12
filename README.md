@@ -1,6 +1,12 @@
 # flutter_dq
 
-A new Flutter project.
+开箱即用的flutter框架，反正我用着挺顺手的。
+
+这性能简直了，亏我还用ReactNative这么多年.......
+
+就是这个Dart语法太操蛋了，得适应适应，其实前端出身学起来基本没啥压力。
+
+学不会啊？ 那我教你啊，嘿嘿。
 
 ## Getting Started
 
